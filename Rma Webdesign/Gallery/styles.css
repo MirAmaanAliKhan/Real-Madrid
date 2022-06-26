@@ -1,0 +1,267 @@
+#title{
+  background-color: #ff4c68;
+}
+#squad{
+  padding-bottom: 20px;
+}
+.heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+head{
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.navbar{
+  padding: 0 0 3rem;
+}
+.nav-item{
+  padding: 0px 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.nav-link:hover{
+  transform: scale(1.2);
+}
+.download-button{
+  margin:5% 3% 5% 0;
+}
+.title-image{
+  width: 95%;
+  transform: rotate(25deg);
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color:rgb(80, 4, 4);
+  font-size:2.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+}
+h3{
+  font-family: 'Montserrat-Bold',sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+p{
+  color: #19daf0c3;
+}
+
+#features{
+  padding: 10% 15%;
+}
+.feature-box{
+text-align: center;
+padding: 5%;
+}
+.ic{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.ic:hover{
+  color: #ff4c68;
+}
+.rma{
+  width: 5%;
+  text-align: left;
+  margin-right: 10px;
+  padding-bottom: 7px;
+}
+
+.box {
+  background-color: white;
+  width: auto;
+  border: 15px;
+  padding-left: 20px;
+  padding: 200px;
+  margin: auto;
+}
+#testimonials{
+  background-color: white;
+  text-align: center;
+}
+.stadium{
+  width: 70%;
+  text-align: center;
+  padding-top: 10px;
+}
+.carousel-control-prev{
+  color: black;
+}
+.ig:hover{
+  color: #040303;
+}
+.socials{
+  margin-left: 44%;
+  margin-bottom: 50px;
+}
+.wrapper{
+  display: flex;
+  justify-content:center;
+  align-content: center;
+}
+.wrapper .icon {
+position: relative;
+border-radius: 50%;
+padding: 15px;
+margin: 10px;
+width: 50px;
+height: 50px;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+cursor: pointer;
+}
+.wrapper .icon i {
+color: #fff;
+transition: .4s linear;
+}
+.wrapper .icon::before,
+.wrapper .icon::after {
+content: '';
+position: absolute;
+box-sizing: border-box;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+transition: .4s linear;
+}
+.wrapper .icon:hover::before {
+border-radius: 50%;
+border-left: 4px solid;
+border-right: 4px solid;
+transform: skewx(20deg);
+color: #fff;
+}
+.wrapper .icon:hover::after {
+border-radius: 50%;
+border-top: 4px solid;
+border-bottom: 4px solid;
+transform: skewY(-20deg);
+color: #fff;
+}
+.wrapper .tooltip {
+position: absolute;
+top: 0;
+font-size: 14px;
+color: #ffffff;
+padding: 5px 8px;
+border-radius: 5px;
+box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+opacity: 0;
+pointer-events: none;
+transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+top: -45px;
+opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
+.Social{
+  color:#fff;
+  font-size:2rem;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+}
+#footer{
+  background-color: #ff4c68;
+  padding: 4% 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.carousel-control-next-icon{
+  background-color:rgb(80, 4, 4);
+  border-radius: 100%;
+}
+.carousel-control-prev-icon{
+  background-color:rgb(80, 4, 4);
+  border-radius: 100%;
+}
+.container1 {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box1 {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box1 > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover;
+  transition: .5s;
+}
+
+.box1 > span {
+  font-size: 3.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box1:hover { flex: 1 1 50%; }
+.box1:hover > img {
+  width: 100%;
+  height: 100%;
+}
+.pic-ctn {
+  width: 100vw;
+  height: 200px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
